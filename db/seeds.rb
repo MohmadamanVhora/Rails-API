@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+# i = 0
+# 50.times do |x|
+#   i = i + 1
+#   Article.create(title: "Title#{i}", body: "Body#{i}", release_date: DateTime.now)
+# end
+
+# 50.times do |x|
+#   i = i + 1
+#   Comment.create(comment: "comment#{i}", article_id: rand(1..50))
+# end
